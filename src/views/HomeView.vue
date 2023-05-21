@@ -14,7 +14,6 @@ import GithubProfileCard from '../components/GithubProfileCard.vue'
       @keydown.enter="searchUser = null"
     />
     <GithubProfileCard v-if="searchUser" :username="searchUser"></GithubProfileCard>
-    <GithubProfileCard username="github"></GithubProfileCard>
   </main>
 </template>
 <script>
